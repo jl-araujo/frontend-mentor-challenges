@@ -27,6 +27,7 @@ button {
 button:hover {
     cursor: pointer;
     background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    transition: 0.3s;
 }
 
 .card {
