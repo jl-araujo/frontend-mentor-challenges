@@ -1,0 +1,114 @@
+.fonte {
+    font-family: 'Montserrat';
+    font-size: 200;
+    text-align: left;
+    margin-top: 40px;
+    font-weight: 700;
+    
+}
+
+h1 {
+    font-family: 'Fraunces'; 
+    font-weight: 700px;
+    text-align: left;
+    font-size: 30px;
+    margin-top: 26px;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    width: 650px;
+    height: 480px;
+    flex-direction: row;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 3px 10px 24px -3px rgba(0,0,0,0.7);
+    
+}
+
+.img {
+    width: 50%;
+    height: 100%;
+    background-image:url(images/image-product-desktop.jpg);
+    background-size:cover;
+    border-radius: 10px 0 0 10px;
+
+}
+
+.descricao {
+    display: flex;
+    width: 220px;
+    height: 287px;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.descricao .fonte {
+    letter-spacing: 1px;
+    color:gray
+}
+
+.paragrafo {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+
+.promo {
+    font-family: 'Fraunces';
+    
+    font-size: 30px;
+    font-weight: 700;
+    color:  hsl(158, 36%, 37%);
+
+}
+
+
+.initialvalue {
+    font-family:'Montserrat' ;
+    font-weight: 500px;
+    color: gray;
+    text-decoration: line-through;
+    font-size: 14px;
+
+}
+    
+
+
+.valor {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 46px
+}
+
+button  {
+     width: 100%;
+     margin-top: 50px;
+     padding: 20px;
+     border-radius: 12px;
+     background-color:  hsl(158, 36%, 37%);
+     border: 0;
+     color: white;
+     font-family:'Montserrat' ;
+}
+
+button:hover {
+    cursor: pointer;
+    background: hsl(212, 21%, 14%);
+    transition: 0.3s;
+}
+
+button img {
+    margin-right: 10px;
+}
